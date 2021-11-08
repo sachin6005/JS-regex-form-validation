@@ -1,0 +1,93 @@
+body{
+    background-color: lightgray;
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 100%;
+}
+div{
+     display: inline-block;
+     margin-right: 200px;
+     width: 30vw;
+}
+h1{
+    color: #1877f2;
+    font-size: 50px;
+}
+p{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+
+
+}
+#form{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    display: inline-block;
+    margin-left: 25pc;
+   
+}
+.input{
+    margin-top: 10px;
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid rgb(180, 180, 180);
+}
+#login{
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1877f2;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    
+}
+#username{
+    display: block;
+ 
+  }
+  #password{
+    display: block;
+
+  }
+  #email{
+    display: block;
+
+  }
+  #mobile{
+    display: block;
+
+  }
+
+  #username-error{
+    color: #FF3F00;
+    font-weight: bolder;
+    font-size: 16px;
+    display: none;
+}
+#password-error{
+    color: #FF3F00;
+    font-weight: bolder;
+    font-size: 16px;
+    display: none;
+}
+#email-error{
+color: #FF3F00;
+font-weight: bolder;
+font-size: 16px;
+display: none;
+}
+#mobile-error{
+color: #FF3F00;
+font-weight: bolder;
+font-size: 16px;
+display: none;
+}
